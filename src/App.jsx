@@ -197,7 +197,7 @@ const App = () => {
     return (
       <div className="landing">
         {/* <h1>Welcome to MateDAO (ú,🚀)</h1> */}
-        <h1>Welcome to MateDAO (<img src="assets/mate_emoji.png" class="emoji-img" />,<img src="assets/rocket_emoji.png" class="emoji-img" />)</h1>
+        <h1>Welcome to<br/>MateDAO (<img src="assets/mate_emoji.png" class="emoji-img" />,<img src="assets/rocket_emoji.png" class="emoji-img" />)</h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
@@ -391,6 +391,7 @@ const App = () => {
     <div className="mint-nft">
       <h1>Mint your
         MateDAO (<img src="assets/mate_emoji.png" class="emoji-img" />,<img src="assets/rocket_emoji.png" class="emoji-img" />)
+        <br/>
         Membership NFT</h1>
       <button
         disabled={isClaiming}
