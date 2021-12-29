@@ -392,7 +392,8 @@ const App = () => {
       <h1>Mint your
         MateDAO (<img src="assets/mate_emoji.png" class="emoji-img" />,<img src="assets/rocket_emoji.png" class="emoji-img" />)
         <br/>
-        Membership NFT</h1>
+        Membership NFT
+      </h1>
       <button
         disabled={isClaiming}
         onClick={() => mintNft()}
