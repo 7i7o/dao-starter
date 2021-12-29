@@ -394,6 +394,7 @@ const App = () => {
         <br/>
         Membership NFT
       </h1>
+      
       <button
         disabled={isClaiming}
         onClick={() => mintNft()}
